@@ -1,0 +1,113 @@
+﻿body {
+	font-family: Georgia, Times New Roman, serif;
+}
+
+h1.title {
+	margin: 100px 0;
+	font-family: Georgia, Times New Roman, serif;
+	font-size: 55px;
+}
+
+.partion1 {
+	font-family: Georgia, Times New Roman, serif;
+	background-color: #ACC742;
+	color: black;
+	text-align: center;
+	height: 60px;
+	
+}
+
+.partion1 h2 {
+	margin-top: 18px;
+	font-size: 22px;
+}
+
+.section {
+	font-family: Georgia, Times New Roman, serif;
+	background-color: #eae7e5;
+	opacity: 0.7;
+	
+}  
+
+.section p, .section li {
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 1.2;
+	opacity: 1;
+	color: black;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	 .section p, .section li  {
+		font-size: 12px;
+		line-height: 1.2;
+	 }
+}
+
+ol {
+	font-style: bolder;
+	margin-top: 20px;
+}
+
+.partion2 {
+	font-family: Georgia, Times New Roman, serif;
+	background-color: #ACC742;
+	color: black;
+	text-align: center;
+	height: 60px;
+	
+}
+
+.partion2 h2 {
+	margin-top: 18px;
+	font-size: 22px;
+}
+
+.ourworks {
+	padding-top: 20px;
+	padding-left: 10px;
+	position: relative;	
+	//height: 300px;
+
+} 
+
+.loupe {
+	position: absolute;
+	
+	top: 50%;
+	left: 48%;
+}
+
+.loupe:hover {
+	cursor: pointer;
+}
+
+.fa-search-plus {
+	color: #eae7e5;
+}
+
+.button {
+	border: 0;
+	position: absolute;
+	top: 1%;
+	right: 1%;
+	background: none;
+	background-image: url(../images/close.png);
+	opacity: 0.5;
+	width: 50px;
+	height: 50px;
+}
+
+.button:hover {
+	background: none;
+	background-image: url(../images/close.png);
+	opacity: 1;
+	border: 0;
+	outline: none;
+}
+
+#modal3 img {
+	height: 75%;
+	
+}
+

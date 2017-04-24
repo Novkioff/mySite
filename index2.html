@@ -1,0 +1,327 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+	<head>
+		 <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Наталья Новикова Портфолио</title>
+		<meta name="descriprion" content="3D HOME, Дизайн, интертера, Наталья Новикова, Портфолио, дизайн-проект, Дизайн, Студия, Ремонт, Квартир отделочные работы">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/font-awesome.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet"> <!-- мои стили основные -->
+		<link href="css/style2.css" rel="stylesheet"> <!-- мои стили для index2 -->
+		<!-- Подключаем библиотеку jQuery, необходимую для работы скриптов Bootstrap 3 -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!-- Подключаем скомпилированный и минимизированный файл JavaScript платформы Bootstrap 3 -->
+		<script src="js/bootstrap.js"></script>
+		<script src="js/es5-sham.js"></script>
+		<script src="js/es5-shim.js"></script>
+		<!--[if lt IE 9]>
+			 <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+			</script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<nav>
+					<div class="navbar navbar-default">
+						<div class="navbar-header">
+							 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</button>
+							<h2 class="navbar-brand visible-xs">ЗD HOME</h2>
+						</div>
+						<div class="row">
+						<div class="col-sm-3 hidden-xs" id="logo">
+							<a href="index.html"><h2>ЗD HOME</h2></a>
+						</div>
+						<div class="collapse navbar-collapse col-md-9" id="menu">
+							<ul class="nav navbar-nav">
+								<li><a href="index.html">Главная</a></li>
+								<li><a class="activ" href="index2.html">Портфолио</a></li>
+								<li><a href="index3.html">Отделочные работы</a></li>
+								<li><a href="contacts.html">Контакты</a></li>
+							</ul>
+						</div>
+						</div>
+					</div>	
+				</nav>
+			</header>	
+		
+		</div>
+		<div class="container" id="title">
+			<div class="row">
+				<h1 class="text-center title"><i>Портфолио</i></h1>
+			</div>
+		</div>
+		
+		<main> <!-- основной контент начало -->
+		
+			<div class="container">
+				<div class="row">
+				
+			<!-- Блок работа 1 начало -->				
+				<div class="container work1"> 
+				
+				<!-- модальное окно 1 начало -->
+					<div class="modal fade" id="modal"> 
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Просмотр проекта</h3>
+								</div>
+								<div class="modal-body">
+									<img src="" id="img1" alt="интерьер">
+								</div>
+								<div class="left" id="control-left"><i class="fa fa-chevron-left fa-2x" onclick="turnImgBlock1(1)"></i></div>
+								<div class="right" id="control-right"><i class="fa fa-chevron-right fa-2x" onclick="turnImgBlock1(2)"></i></div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+								</div>
+							</div>
+						</div>
+					</div> 
+				<!-- модальное окно 1 конец -->
+				
+					<h2>Дизайн квартиры</h2>
+					<div class="row">
+						<div class="col-xs-4 col-xs-offset-4 col-md-4 col-md-offset-0">
+							<img src="images/bedroom1.jpg" alt="ннтерьер" data-target="#modal" data-toggle="modal" id="modalOpen1">
+						</div>
+						<div class="col-md-8 hidden-xs hidden-sm">
+							<p class="text-justify">
+							Спальная комната площадью 20 квадратных метров в квартире, находящейся в г. Москва. 
+							Хозяева квартиры молодая семейная пара.<br> Основное пожелание заказчиков к 
+							будущему интерьеру - это атмосфера спокойствия и элегантности. Сочетание 
+							духа современности и классических элементов гармонично соединяются в едином 
+							интерьерном ансамбле. Стиль современной американской классики как нельзя лучше 
+							отражает характер и образ жизни заказчиков.
+							</p>
+						</div>
+					</div>	
+					<input type="button" id="button1" value="Посмотреть проект" class="button" data-target="#modal" data-toggle="modal">					
+				</div> 	
+			<!-- Блок работа 1 конец -->
+			
+			<!-- Блок работа 2 начало -->
+			<div class="container work1"> 
+				<!-- модальное окно 2 начало -->
+					<div class="modal fade" id="modal1"> 
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Просмотр проекта</h3>
+								</div>
+								<div class="modal-body">
+									<img src="" id="img2" alt="нтерьер">
+								</div>
+								<div class="left" id="control-left1"><i class="fa fa-chevron-left fa-2x" onclick="turnImgBlock2(1)"></i></div>
+								<div class="right" id="control-right1"><i class="fa fa-chevron-right fa-2x" onclick="turnImgBlock2(2)"></i></div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+								</div>
+							</div>
+						</div>
+					</div> 
+				<!-- модальное окно 2 конец -->
+				<h2>Дизайн коттеджа</h2>
+					<div class="row">
+						<div class="col-md-8 hidden-xs hidden-sm">
+							<p class="text-justify">
+							Дом площадью почти 150 квадратных метров, находящийся в  
+							новом коттеджном поселке в г. Волгореченск Костромской области.<br> Заказчики - дружная семья 
+							из 4 человек, которые активно принимали участие в работе над проектом.
+							<br>Важнейшим пожеланием заказчиков было создаеие современного, уютного и яркого 
+							интерьера своего дома.
+							Особое внимание было уделено планировке помещений. Какие-то конструкции 
+							возвели, а какие-то переместили в соответствии с пожеланиями заказчиков.
+							<br>Основной цветовой гаммой было сочетание теплых бежевых и серых оттенков. 
+							Акцентом в цветовой палитре дома был бирюзовый и зеленый цвета. Также интересным цветовым 
+							пятном является спальня, выполненная с использованием бордового цвета, что придает 
+							помещению больше тепла и уюта!
+							</p>
+						</div>
+						<div class="col-xs-4 col-xs-offset-4 col-md-4 col-md-offset-0">
+							<img src="images/house1.jpg" alt="нтерьер" data-target="#modal1" data-toggle="modal" id="modalOpen2">
+						</div>
+					</div>	
+					<input type="button" id="button2" value="Посмотреть проект" class="button" data-target="#modal1" data-toggle="modal">					
+				</div> 
+			<!-- Блок работа 2 конец -->
+			 
+			<!-- Блок работа 3 начало -->	
+				<div class="container work1">
+
+					<!-- модальное окно 3 начало -->
+
+					<div class="modal fade" id="modal2"> 
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Просмотр проекта</h3>
+								</div>
+								<div class="modal-body">
+									<img src="" id="img3" alt="нтерьер">
+								</div>
+								<div class="left" id="control-left2"><i class="fa fa-chevron-left fa-2x" onclick="turnImgBlock3(1)"></i></div>
+								<div class="right" id="control-right2"><i class="fa fa-chevron-right fa-2x" onclick="turnImgBlock3(2)"></i></div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+								</div>
+							</div>
+						</div>
+					</div> 
+
+					<!-- модальное окно 3 конец -->
+					<h2>Дизайн магазина</h2>
+					<div class="row">
+						<div class="col-xs-4 col-xs-offset-4 col-md-4 col-md-offset-0">
+							<img src="images/shop1.jpg" alt="Интерьер" data-target="#modal2" data-toggle="modal" id="modalOpen3">
+						</div>
+						<div class="col-md-8 hidden-xs hidden-sm">
+							<p class="text-justify">
+							Помещение торгового центра с открытыми витринами, площадью 20 
+							квадратных метров. Назначение помещения - магазин одежды для девочек.<br>
+							Требование заказчика было совмещение лаконичных линий и легкости цветовой гаммы.
+							Акцентом помещения стало оформление кассовой зоны, где были использованны деревянные 
+							панели с подсветкой. Стойка кассира выделенна ярким цветом с логотипом компании.
+							</p>
+						</div>
+					</div>	
+					<input type="button" id="button3" value="Посмотреть проект" class="button" data-target="#modal2" data-toggle="modal">					
+				</div> 
+			<!-- Блок работа 3 конец -->
+			
+			<!-- Блок работа 4 начало -->
+			<div class="container work1"> 
+				<!-- модальное окно 4 начало -->
+					<div class="modal fade" id="modal3"> 
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Просмотр проекта</h3>
+								</div>
+								<div class="modal-body">
+									<img src="" id="img4" alt="нтерьер">
+								</div>
+								<div class="left" id="control-left3"><i class="fa fa-chevron-left fa-2x" onclick="turnImgBlock4(1)"></i></div>
+								<div class="right" id="control-right3"><i class="fa fa-chevron-right fa-2x" onclick="turnImgBlock4(2)"></i></div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+								</div>
+							</div>
+						</div>
+					</div> 
+				<!-- модальное окно 4 конец -->
+				<h2>Дизайн ванной комнаты</h2>
+					<div class="row">
+						<div class="col-md-8 hidden-xs hidden-sm">
+							<p class="text-justify">
+							Дом площадью почти 150 квадратных метров, находящийся в  
+							новом коттеджном поселке в г. Волгореченск Костромской области.<br> Заказчики - дружная семья 
+							из 4 человек, которые активно принимали участие в работе над проектом.
+							<br>Важнейшим пожеланием заказчиков было создаеие современного, уютного и яркого 
+							интерьера своего дома.
+							Особое внимание было уделено планировке помещений. Какие-то конструкции 
+							возвели, а какие-то переместили в соответствии с пожеланиями заказчиков.
+							<br>Основной цветовой гаммой было сочетание теплых бежевых и серых оттенков. 
+							Акцентом в цветовой палитре дома был бирюзовый и зеленый цвета. Также интересным цветовым 
+							пятном является спальня, выполненная с использованием бордового цвета, что придает 
+							помещению больше тепла и уюта!
+							</p>
+						</div>
+						<div class="col-xs-4 col-xs-offset-4 col-md-4 col-md-offset-0">
+							<img src="images/bath1.jpg" alt="нтерьер" data-target="#modal3" data-toggle="modal" id="modalOpen4">
+						</div>
+					</div>	
+					<input type="button" id="button4" value="Посмотреть проект" class="button" data-target="#modal3" data-toggle="modal">					
+				</div> 
+			<!-- Блок работа 4 конец -->
+			
+			<!-- Блок работа 5 начало -->	
+				<div class="container work1">
+
+					<!-- модальное окно 5 начало -->
+
+					<div class="modal fade" id="modal4"> 
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Просмотр проекта</h3>
+								</div>
+								<div class="modal-body">
+									<img src="" id="img5" alt="нтерьер">
+								</div>
+								<div class="left" id="control-left4"><i class="fa fa-chevron-left fa-2x" onclick="turnImgBlock5(1)"></i></div>
+								<div class="right" id="control-right4"><i class="fa fa-chevron-right fa-2x" onclick="turnImgBlock5(2)"></i></div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+								</div>
+							</div>
+						</div>
+					</div> 
+
+					<!-- модальное окно 5 конец -->
+					
+					<h2>Дизайн 3-х комнатной квартиры</h2>
+					<div class="row">
+						<div class="col-xs-4 col-xs-offset-4 col-md-4 col-md-offset-0">
+							<img src="images/flat10.jpg" alt="Интерьер" data-target="#modal4" data-toggle="modal" id="modalOpen5">
+						</div>
+						<div class="col-md-8 hidden-xs hidden-sm">
+							<p class="text-justify">
+							Помещение торгового центра с открытыми витринами, площадью 20 
+							квадратных метров. Назначение помещения - магазин одежды для девочек.<br>
+							Требование заказчика было совмещение лаконичных линий и легкости цветовой гаммы.
+							Акцентом помещения стало оформление кассовой зоны, где были использованны деревянные 
+							панели с подсветкой. Стойка кассира выделенна ярким цветом с логотипом компании.
+							</p>
+						</div>
+					</div>	
+					<input type="button" id="button5" value="Посмотреть проект" class="button" data-target="#modal4" data-toggle="modal">					
+				</div> 
+			<!-- Блок работа 5 конец -->
+				
+				<a id="toTop" class="hidden-xs" title="Наверх" onclick="toTop()"><i class="fa fa-chevron-circle-up fa-3x"></i></a> <!--стрелка вверх страницы-->
+			</div>
+			</div>	
+		</main>
+	<!--основной контент конец-->
+
+						
+	<!--подвал начало-->
+		<footer>
+			<div class="container" id="footer">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-4" id="mail">
+					<address><strong>Электронная почта</strong><br>najest@yandex.ru</address>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4" id="name">
+						<address>Наталья Новикова</br>
+							<small>дизайн интерьера</small>
+						</address>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4" id="social">
+						<address><span class="fa fa-phone fa-1x"></span> 8-953-641-93-05</address>
+						<a href="http:/www.odnoklassniki.ru" target="blank"><i class="fa fa-odnoklassniki fa-border"></i></a>
+						<a href="http:/www.vk.com" target="blank"><i class="fa fa-vk fa-border"></i></a>
+						<a href="http:/www.facebook.com" target="blank"><i class="fa fa-facebook fa-border"></i></a>
+						
+					</div>
+				</div>
+			</div>	
+			<div class="aftor hidden-xs">
+				<address>Designed by Novikov Kirill</address>
+				<address>mail: nv84@inbox.ru</address>
+				<address class="last">8-910-660-68-11</address>
+			</div>
+		</footer>
+	<!--подвал конец-->	
+		<script src="js/myScripts.js"></script> <!--мои скрипты-->
+		<script src="js/scriptsIndex2.js"></script> <!--мои скрипты-->	
+	</body>
+</html>	
